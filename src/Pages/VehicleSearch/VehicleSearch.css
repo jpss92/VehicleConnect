@@ -1,0 +1,8 @@
+.vehicle__search {
+  display: flex;
+  flex-direction: column;
+}
+.vehicle__search--label {
+  margin: 1rem;
+}
+/*# sourceMappingURL=VehicleSearch.css.map */
