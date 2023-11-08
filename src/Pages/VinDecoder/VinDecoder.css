@@ -1,0 +1,12 @@
+.decoder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.decoder__input {
+  width: 50%;
+}
+.decoder__form {
+  text-align: center;
+}
+/*# sourceMappingURL=VinDecoder.css.map */

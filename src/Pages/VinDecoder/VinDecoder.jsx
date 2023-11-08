@@ -40,11 +40,15 @@ function VinDecoder() {
 
     return (
         <>
-            <form>
-                <label> Vin Decode
-                    <input />
-                </label>
-                <Button> Decode VIN</Button>
+            <form className='decoder__form'> 
+                <div className='decoder'>
+                    <label>Vin Decode</label>
+                    <input 
+                        placeholder='Enter VIN here'
+                        className='decoder__input'/>
+                </div>
+                
+                <Button>Decode VIN</Button>
             </form>
 
             {/* <ul>Vehicle Information
