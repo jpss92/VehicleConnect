@@ -1,0 +1,26 @@
+.menu {
+   position: relative;
+   right: 15rem; 
+   top: 2rem;
+   
+    &__img {
+        height: 4rem;
+    };
+
+    &__list {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        list-style-type: none;
+        background-color: limegreen;
+        width: 170%;
+
+        &--item {
+            position: relative;
+            left: -2rem;
+            padding: .5rem;
+            width: 100%;
+        }
+        
+    }
+};

@@ -1,2 +1,2 @@
-.vehicle__search{display:flex;flex-direction:column}.vehicle__search--label{margin:1rem}
+.vehicle__search{display:flex;flex-direction:column;justify-content:center}.vehicle__search--label{margin:1rem}#man__search{width:10%;margin:.5rem 1rem}
 /*# sourceMappingURL=VehicleSearch.min.css.map */

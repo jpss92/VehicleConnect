@@ -1,15 +1,17 @@
 import "./Header.scss";
+import NavMenu from "../NavMenu/NavMenu";
 
 function Header() {
 
+    
+
     return (
-        <>
-            <div> Vehicle Connect</div>
-            <div>
-                <div>Vin Decoder</div>
-                <div>Vehicle Search</div>
-            </div>
-        </>
+        <div className="header">
+            <h1> Vehicle Connect</h1>
+            <NavMenu />
+            
+            
+        </div>
     );
 }
 

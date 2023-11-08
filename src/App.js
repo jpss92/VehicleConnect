@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <VinDecoder />
-      <VehicleSearch />
+      {/* <VehicleSearch /> */}
     </>
   );
 }
