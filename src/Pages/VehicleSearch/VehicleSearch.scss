@@ -2,17 +2,32 @@
     &__search {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        
+        
+
+        &--field {
+            margin: .5rem;
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            color: white;
+            
+        }
 
         &--label {
-            margin: 1rem;
+            margin-bottom: .5rem;
+        }
+
+        &--input {
+            opacity: .5;
         }
     }
 }
 
 #man {
     &__search {
-        width: 10%;
         margin: .5rem 1rem;
     }
 }

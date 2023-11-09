@@ -5,8 +5,14 @@
 }
 .decoder__input {
   width: 50%;
+  margin: 1rem;
+  opacity: 0.5;
 }
 .decoder__form {
-  text-align: center;
+  padding-top: 2rem;
+  color: white;
+}
+.decoder__label {
+  margin-right: 10rem;
 }
 /*# sourceMappingURL=VinDecoder.css.map */

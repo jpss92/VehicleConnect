@@ -1,14 +1,12 @@
 import './App.css';
 import Header from './Components/Header/Header';
-import VehicleSearch from './Pages/VehicleSearch/VehicleSearch';
-import VinDecoder from './Pages/VinDecoder/VinDecoder';
+import Home from './Components/Header/Home/Home';
 
 function App() {
   return (
     <>
       <Header />
-      <VinDecoder />
-      {/* <VehicleSearch /> */}
+      <Home />
     </>
   );
 }

@@ -2,8 +2,13 @@
 .header {
     display: flex;
     justify-content: center;
-    border: 1px blsck solid;
-    padding-left: 6rem;
-    background-color: lightblue;
+    background-color: #3e9aa7;
+    height: 6rem;
+
+    &__logo {
+        height: 15rem;
+        margin-top: -4.5rem;
+        margin-left: 3rem;
+    }
     
 };
